@@ -4,9 +4,9 @@ using System.Text;
 
 namespace BulkyBook.DataAccess.Repository.IRepository
 {
-    public interface IUnitofWork : IDisposable
+    public interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Category { get; }
-        ISP_Call SP_CAll { get; }
+        ISP_Call SP_Call { get; }
     }
 }

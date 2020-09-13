@@ -4,8 +4,7 @@ using System.Text;
 
 namespace BulkyBook.Utility
 {
-   public static class SD
+    public static class SD
     {
-
     }
 }
